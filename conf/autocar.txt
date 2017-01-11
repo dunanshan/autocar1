@@ -1,0 +1,2 @@
+// server info in memory or database 
+//carID X Y velocity heading curvature status energy sendTime receiveTime alive serviceTo

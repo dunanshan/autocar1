@@ -1,0 +1,19 @@
+term.map contents:
+ (terminal indoor map info)
+x_len y_len unit mapinfo[x_len*y_len]
+type:long long double byte
+     8bytes 8bytes 8bytes x_len*y_len bytes
+
+gate.txt contents:
+ID location.x location.y
+unit: meter
+type: float
+
+parking.txt contents:
+ID location.x location.y heading
+unit: meter rad
+type float
+
+autocar.txt contents:
+car info
+
